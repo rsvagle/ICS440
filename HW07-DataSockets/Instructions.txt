@@ -1,0 +1,18 @@
+Data Sockets Lab
+================
+1. Edit SocketClient adding code at the points marked with TODO.
+2. Edit SocketServer adding code at the points marked with TODO.
+3. Run DataSocketsTest to validate your code.
+4. In Windows Explorer, double-click the DataSocketsLab_Demo.jar file
+   to see how the output should look (your does not have to be an exact 
+   match, but it does have to pass all the tests). When running the
+   demo, you will *not* be able to simultaneously run *your* server as they
+   both try to use the same port (close the demo to run your server).
+5. Using RequestResponseMapping is optional. If you don't use it, look
+   at the source to see the appropriate responses for various requests.
+6. When the request of "GOODBYE" is sent up by the client and after the
+   server responds with "BYE-BYE", the streams and Socket should be closed.
+7. Use the writeUTF(String s) method on DataOutputStream to send a reqeust
+   (or a response) over the OutputStream of the Socket.
+8. Use the readUTF() method on DataInputStream to receive a request (or a
+   response) from the InputStream of the Socket.

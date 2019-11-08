@@ -1,0 +1,40 @@
+00:00:00.000|main    |Starting regression for: com.abc.socket.test.DataSocketsTest
+00:00:00.004|main    |Attempting to startup SocketServer...
+00:00:01.005|main    |Attempting to startup SocketClient...
+00:00:01.061|main    |Testing clientA...
+00:00:01.065|main    | PASS: Sent 'Hello' [result=Hello!, expected=Hello!]
+00:00:01.068|main    | PASS: Sent 'What is the password?' [result=Open sesame, expected=Open sesame]
+00:00:01.069|main    | PASS: Sent 'How are you?' [result=Great!, expected=Great!]
+00:00:01.069|main    | PASS: Sent 'Do you like snow?' [result=Yes!, expected=Yes!]
+00:00:01.069|main    | PASS: Sent 'Java is fun' [result=A lot of fun!, expected=A lot of fun!]
+00:00:01.069|main    |Attempting to startup SocketClient...
+00:00:01.070|main    |Testing clientB...
+00:00:01.071|main    | PASS: Sent 'How are you?' [result=Great!, expected=Great!]
+00:00:01.071|main    | PASS: Sent 'How many days?' [result=Ten days, expected=Ten days]
+00:00:01.072|main    | PASS: Sent 'What is the password?' [result=Open sesame, expected=Open sesame]
+00:00:01.072|main    | PASS: Sent 'What is the password?' [result=Open sesame, expected=Open sesame]
+00:00:01.073|main    | PASS: Sent 'What is the password?' [result=Open sesame, expected=Open sesame]
+00:00:01.073|main    |Confirming that after starting clientB, clientA still works...
+00:00:01.073|main    | PASS: Sent 'How many weeks?' [result=Three weeks, expected=Three weeks]
+00:00:01.073|main    | PASS: Sent 'Do you like snow?' [result=Yes!, expected=Yes!]
+00:00:01.074|main    | PASS: Sent 'Hello' [result=Hello!, expected=Hello!]
+00:00:01.074|main    | PASS: Sent 'What is the password?' [result=Open sesame, expected=Open sesame]
+00:00:01.074|main    | PASS: Sent 'Do you like snow?' [result=Yes!, expected=Yes!]
+00:00:01.074|main    |Confirming that clientB still works...
+00:00:01.075|main    | PASS: Sent 'How are you?' [result=Great!, expected=Great!]
+00:00:01.075|main    | PASS: Sent 'Hello' [result=Hello!, expected=Hello!]
+00:00:01.075|main    | PASS: Sent 'What is the password?' [result=Open sesame, expected=Open sesame]
+00:00:01.076|main    | PASS: Sent 'What is the password?' [result=Open sesame, expected=Open sesame]
+00:00:01.076|main    | PASS: Sent 'What is the password?' [result=Open sesame, expected=Open sesame]
+00:00:01.076|main    |Disconnecting clientA...
+00:00:01.079|main    |Confirming that after disconnecting clientA, clientB still works...
+00:00:01.080|main    | PASS: Sent 'How are you?' [result=Great!, expected=Great!]
+00:00:01.081|main    | PASS: Sent 'Do you like snow?' [result=Yes!, expected=Yes!]
+00:00:01.082|main    | PASS: Sent 'How are you?' [result=Great!, expected=Great!]
+00:00:01.082|main    | PASS: Sent 'What is the password?' [result=Open sesame, expected=Open sesame]
+00:00:01.083|main    | PASS: Sent 'Do you like snow?' [result=Yes!, expected=Yes!]
+00:00:01.083|main    |Disconnecting clientB...
+00:00:01.083|main    |Finished regression for: 
+00:00:01.083|main    |    com.abc.socket.test.DataSocketsTest
+00:00:01.083|main    |Done with 25 regression tests, duration: 00:00:01.083
+00:00:01.083|main    |Failure count = 0
